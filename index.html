@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>"To Do List"</title>
+  </head>
+  <body>
+
+<!-- Kod är baserat av ett "Team Treehouse tutorial". Har kollat tutorial, tagit kod, och applicerat till uppgiften. Har nu skrivit om med jquery. -->
+
+<div class="list">
+  <p>
+    <label for="new-task"></label><input id="new-task" type="text" placeholder="What's your task?"><button id="add-button">Add</button>
+  </p>
+
+  <h3>Tasks</h3>
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Task 1</label><input type="text" class='edit-text'><button class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+    <li><input type="checkbox" class="checkbox"><label>Task 2</label><input type="text" class='edit-text'><button class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+
+  </ul>
+
+  <h3>Completed Tasks</h3>
+  <ul id="completed-tasks">
+    <li><input type="checkbox" class="checkbox" checked><label>Task 3</label><input type="text" class='edit-text'><button class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
